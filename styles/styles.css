@@ -1,0 +1,113 @@
+/*Mobile First*/
+/* Header */
+.indexBody {
+  background-color: rgb(37, 37, 37);
+}
+.indexBody .cabecera {
+  background-color: rgb(37, 37, 37);
+  position: fixed;
+  top: 0vh;
+  width: 100%;
+  padding: 10px 10px 15px 10px;
+}
+.indexBody .cabecera .linkCabecera {
+  align-self: center;
+  text-align: end;
+}
+.indexBody .cabecera .linkCabecera .headerLogoNombre {
+  height: 8vh;
+}
+.indexBody .cabecera .linkCabecera .headerLogo {
+  height: 8vh;
+}
+.indexBody .cabecera .navbar {
+  position: fixed;
+  top: 2vh;
+}
+.indexBody .cabecera .navbar .menuButtons {
+  margin: 3vh 5vh 0vh 0vh;
+  background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 65%, rgb(90, 90, 90) 90%, rgb(100, 100, 100) 100%);
+}
+.indexBody .cabecera .navbar .menuButtons .cabeceraLink {
+  padding: 2vh;
+}
+.indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  font-size: 18px;
+  width: 100px;
+  padding: 1vh 100% 1vh 1vh;
+  transition-duration: 2s;
+}
+.indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton:active {
+  color: rgb(37, 37, 37);
+  background: linear-gradient(30deg, rgb(100, 100, 100) 0%, rgb(80, 80, 80) 65%, rgb(50, 50, 50) 90%, rgb(37, 37, 37) 100%);
+}
+
+.piePagina {
+  background-color: rgb(23, 23, 23);
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.piePagina .secondMenu {
+  list-style: none;
+  text-align: center;
+}
+.piePagina .pieContenedorRedes {
+  text-align: end;
+}
+.piePagina .pieContenedorRedes .pieRedes .redes {
+  height: 60px;
+  padding: 10px;
+}
+.piePagina .derechos {
+  text-align: center;
+}
+
+.indexMain {
+  margin-top: 80px;
+  background-image: url(https://drive.google.com/uc?export=view&id=1EZqYlOQlH0RHH23EdRZRBIibMrIoHtFc);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(240, 240, 240);
+}
+.indexMain .tituloMaster {
+  margin-top: 35vh;
+  background-color: rgba(70, 70, 70, 0.8);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cargosDiv .cargos {
+  padding: 1vh 0vh;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+.novedades {
+  background-color: rgb(165, 165, 165);
+  margin-top: 80px;
+}
+.novedades .portadaVideo {
+  width: 100%;
+}
+
+/* footer */
+.pie__pagina {
+  background-color: rgb(23, 23, 23);
+  padding-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.pie__pagina .second__menu {
+  list-style: none;
+}
+.pie__pagina .pie__redes .redes {
+  height: 50px;
+  margin: 10px 0px;
+}
+.pie__pagina .derechos {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

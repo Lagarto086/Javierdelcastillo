@@ -1,0 +1,29 @@
+//VERSION 1 DEL FOOTER
+
+
+.piePagina {
+    background-color: rgb(23, 23, 23);
+    padding-top: 10px;
+    justify-content: space-between;
+
+    .secondMenu {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .pieContenedorRedes {
+        text-align: end;
+
+        .pieRedes {
+
+            .redes {
+                height: 60px;
+                padding: 10px;
+            }
+        }
+    }
+    .derechos {
+        text-align: center;
+    }
+}
+
