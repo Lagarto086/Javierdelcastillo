@@ -47,7 +47,16 @@
 .piePagina {
   background-color: rgb(23, 23, 23);
   padding-top: 10px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+.piePagina .botonWhatsapp {
+  position: fixed;
+  top: 63vh;
+  left: 85%;
+  width: 10vw;
+}
+.piePagina .pieInstitucional .pieLogo {
+  margin: 1vw;
 }
 .piePagina .secondMenu {
   list-style: none;
@@ -62,6 +71,7 @@
 }
 .piePagina .derechos {
   text-align: center;
+  color: rgb(46, 46, 46);
 }
 
 .indexMain {
@@ -77,6 +87,7 @@
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 28px;
 }
 
 .cargosDiv .cargos {
@@ -84,14 +95,40 @@
   margin: 0px;
   text-align: center;
   color: white;
+  font-size: 18px;
 }
 
 .novedades {
   background-color: rgb(165, 165, 165);
   margin-top: 80px;
+  margin-bottom: 200px;
 }
-.novedades .portadaVideo {
+.novedades .titulosNovedades {
+  margin-top: 20px;
+  font-size: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.novedades .contenedorEntrada {
+  background-color: rgb(59, 59, 59);
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+.novedades .contenedorEntrada .tituloEntrada {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(59, 59, 59);
+  padding: 20px;
+}
+.novedades .contenedorEntrada .multimediaEntrada {
   width: 100%;
+}
+.novedades .contenedorEntrada .cuerpoEntrada {
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
 }
 
 /* footer */

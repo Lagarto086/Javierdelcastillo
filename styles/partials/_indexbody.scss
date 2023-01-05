@@ -12,21 +12,53 @@
         text-align: center;  
         padding-top: 10px;
         padding-bottom: 10px;
+        font-size: 28px;
 }
 }
 .cargosDiv {.cargos {
-
     padding: 1vh 0vh;
     margin: 0px;
     text-align: center;  
     color: white; 
+    font-size: 18px;
 }
 }
 .novedades {
     background-color: rgb(165, 165, 165);
     margin-top: 80px;
+    margin-bottom: 200px;
 
-    .portadaVideo {
-        width: 100%;;
+
+
+        .titulosNovedades {
+            margin-top: 20px;
+            font-size: 26px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+    .contenedorEntrada {
+        background-color: rgb(59, 59, 59);
+        margin-bottom: 50px;
+        border-radius: 20px;
+
+        .tituloEntrada {
+            margin-top: 20px;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(59, 59, 59);
+            padding: 20px 
+        }
+
+        .multimediaEntrada {
+            width: 100%;
+        }
+
+        .cuerpoEntrada {
+            margin-top: 20px;
+            font-size: 16px;
+            color: white;
+        }
     }
 }
