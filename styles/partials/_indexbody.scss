@@ -1,18 +1,23 @@
 .indexMain {
     margin-top: 80px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1EZqYlOQlH0RHH23EdRZRBIibMrIoHtFc);
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1EZqYlOQlH0RHH23EdRZRBIibMrIoHtFc); */
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
     color:rgb(240, 240, 240);
+    height: auto;
 
-    
+    .fotoPrincipal {
+        width: 100%;
+    }
     .tituloMaster {
-        margin-top: 35vh;
+        z-index: 1;
+        margin-top: -10vh;
         background-color: rgba(70, 70, 70,0.8); 
         text-align: center;  
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 28px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 7vw;
 }
 }
 .cargosDiv {.cargos {
@@ -20,15 +25,13 @@
     margin: 0px;
     text-align: center;  
     color: white; 
-    font-size: 18px;
+    font-size: 4vw;
 }
 }
 .novedades {
     background-color: rgb(165, 165, 165);
     margin-top: 80px;
-    margin-bottom: 200px;
-
-
+    margin-bottom: 20vw;
 
         .titulosNovedades {
             margin-top: 20px;
@@ -40,7 +43,7 @@
 
     .contenedorEntrada {
         background-color: rgb(59, 59, 59);
-        margin-bottom: 50px;
+        margin-bottom: 10vw;
         border-radius: 20px;
 
         .tituloEntrada {

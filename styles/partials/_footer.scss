@@ -1,24 +1,16 @@
 //VERSION 1 DEL FOOTER
 
-
 .piePagina {
     background-color: rgb(23, 23, 23);
     padding-top: 10px;
 
     /* justify-content: space-between; */
 
-    .botonWhatsapp {
-        position: fixed;
-        top: 63vh;
-        left: 85%;
-        width: 10vw;
-    }
-
-
     .pieInstitucional {
         
         .pieLogo {
             margin: 1vw;
+            padding-bottom: 15px;
         }
     }
 
@@ -28,13 +20,14 @@
     }
     
     .pieContenedorRedes {
-        text-align: end;
+        text-align: center;
 
         .pieRedes {
-
+            align-items: center;
+           
             .redes {
-                height: 60px;
-                padding: 10px;
+                width: 40%;
+                padding: 5px;
             }
         }
     }
