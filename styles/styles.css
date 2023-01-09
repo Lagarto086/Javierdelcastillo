@@ -4,6 +4,7 @@
   background-color: rgb(37, 37, 37);
 }
 .indexBody .cabecera {
+  display: flex;
   background-color: rgb(37, 37, 37);
   position: fixed;
   top: 0vh;
@@ -11,14 +12,15 @@
   padding: 10px 10px 15px 10px;
 }
 .indexBody .cabecera .linkCabecera {
-  align-self: center;
-  text-align: end;
+  text-align: center;
 }
 .indexBody .cabecera .linkCabecera .headerLogoNombre {
   height: 8vh;
+  width: auto;
 }
 .indexBody .cabecera .linkCabecera .headerLogo {
   height: 8vh;
+  width: auto;
 }
 .indexBody .cabecera .navbar {
   position: fixed;
