@@ -5,29 +5,30 @@
     background-color: rgb(37, 37, 37);
         
     .cabecera {
-        display: flex;
-        background-color: rgb(37, 37, 37);
         position:fixed;
         top: 0vh;
         width: 100%;
         padding: 10px 10px 15px 10px;
+        background-color: rgb(37, 37, 37);
 
+        .cabeceraBrand {
+            display: flex;
+            flex-direction: row;          
+            justify-content: center;           
+        }
 
         .linkCabecera {
-
-            text-align: center;
-
 
             .headerLogoNombre {
                 height: 8vh;
                 width: auto;
-
             }
 
             .headerLogo {
                 height: 8vh;
                 width: auto;
-
+                position: fixed;
+                right: 2vw;
             } 
         }
 

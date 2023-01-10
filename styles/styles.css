@@ -4,15 +4,16 @@
   background-color: rgb(37, 37, 37);
 }
 .indexBody .cabecera {
-  display: flex;
-  background-color: rgb(37, 37, 37);
   position: fixed;
   top: 0vh;
   width: 100%;
   padding: 10px 10px 15px 10px;
+  background-color: rgb(37, 37, 37);
 }
-.indexBody .cabecera .linkCabecera {
-  text-align: center;
+.indexBody .cabecera .cabeceraBrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .indexBody .cabecera .linkCabecera .headerLogoNombre {
   height: 8vh;
@@ -21,6 +22,8 @@
 .indexBody .cabecera .linkCabecera .headerLogo {
   height: 8vh;
   width: auto;
+  position: fixed;
+  right: 2vw;
 }
 .indexBody .cabecera .navbar {
   position: fixed;
@@ -49,6 +52,7 @@
 .piePagina {
   background-color: rgb(23, 23, 23);
   padding-top: 10px;
+  font-size: 4vw;
   /* justify-content: space-between; */
 }
 .piePagina .pieInstitucional .pieLogo {
@@ -76,24 +80,23 @@
 
 .indexMain {
   margin-top: 80px;
-  /* background-image: url(https://drive.google.com/uc?export=view&id=1EZqYlOQlH0RHH23EdRZRBIibMrIoHtFc); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  color: rgb(240, 240, 240);
   height: auto;
 }
-.indexMain .fotoPrincipal {
-  width: 100%;
+.indexMain .preTitulo {
+  background-image: url(https://i.pinimg.com/originals/b9/33/b6/b933b686cf2284b70249741abea77dd3.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 2vh;
 }
-.indexMain .tituloMaster {
-  z-index: 1;
-  margin-top: -10vh;
-  background-color: rgba(70, 70, 70, 0.8);
+.indexMain .preTitulo .tituloMaster {
+  color: rgb(255, 255, 255);
+  margin-top: 40vh;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   font-size: 7vw;
+  font-weight: bolder;
+  background-color: rgba(70, 70, 70, 0.8);
 }
 
 .cargosDiv .cargos {
@@ -108,10 +111,11 @@
   background-color: rgb(165, 165, 165);
   margin-top: 80px;
   margin-bottom: 20vw;
+  border-radius: 21px;
 }
 .novedades .titulosNovedades {
   margin-top: 20px;
-  font-size: 26px;
+  font-size: 5vw;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -123,18 +127,20 @@
 }
 .novedades .contenedorEntrada .tituloEntrada {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 4vw;
   color: white;
   background-color: rgb(59, 59, 59);
   padding: 20px;
+  border-radius: 20px;
 }
 .novedades .contenedorEntrada .multimediaEntrada {
   width: 100%;
 }
 .novedades .contenedorEntrada .cuerpoEntrada {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 3vw;
   color: white;
+  padding: 4vw;
 }
 
 /* footer */
