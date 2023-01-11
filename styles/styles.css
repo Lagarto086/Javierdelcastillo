@@ -15,27 +15,28 @@
   flex-direction: row;
   justify-content: center;
 }
-.indexBody .cabecera .linkCabecera {
+.indexBody .cabecera .cabeceraBrand .linkCabecera {
   display: flex;
   flex-direction: row;
 }
-.indexBody .cabecera .linkCabecera .headerLogoNombre {
-  height: 15vw;
-  width: auto;
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
+  height: auto;
+  width: 40vw;
 }
-.indexBody .cabecera .linkCabecera .headerLogo {
-  height: 15vw;
-  width: auto;
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
+  height: auto;
+  width: 20vw;
   position: fixed;
   right: 2vw;
 }
 .indexBody .cabecera .navbar {
   position: fixed;
-  top: 2vh;
+  top: 5vw;
+  size: 20vw;
 }
 .indexBody .cabecera .navbar .menuButtons {
-  margin: 3vh 5vh 0vh 0vh;
-  background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 65%, rgb(90, 90, 90) 90%, rgb(100, 100, 100) 100%);
+  margin: 4vw 0vw 0vh 0vh;
+  background-color: rgba(70, 70, 70, 0.7);
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
   padding: 2vh;
@@ -45,12 +46,14 @@
   color: rgb(240, 240, 240);
   font-size: 18px;
   width: 100px;
-  padding: 1vh 100% 1vh 1vh;
+  padding: 1vw 25vw 1vw 20vw;
   transition-duration: 2s;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton:active {
   color: rgb(37, 37, 37);
-  background: linear-gradient(30deg, rgb(100, 100, 100) 0%, rgb(80, 80, 80) 65%, rgb(50, 50, 50) 90%, rgb(37, 37, 37) 100%);
+  padding-left: 25vw;
+  background-color: rgba(185, 185, 185, 0.5);
+  border-radius: 5px;
 }
 
 .piePagina {
