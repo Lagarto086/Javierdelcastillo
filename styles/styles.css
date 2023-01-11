@@ -13,46 +13,56 @@
 .indexBody .cabecera .cabeceraBrand {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
-.indexBody .cabecera .linkCabecera {
+.indexBody .cabecera .cabeceraBrand .linkCabecera {
   display: flex;
   flex-direction: row;
 }
-.indexBody .cabecera .linkCabecera .headerLogoNombre {
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoRedondo {
   height: 15vw;
   width: auto;
 }
-.indexBody .cabecera .linkCabecera .headerLogo {
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
   height: 15vw;
   width: auto;
-  position: fixed;
-  right: 2vw;
+}
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
+  height: 15vw;
+  width: auto;
 }
 .indexBody .cabecera .navbar {
-  position: fixed;
-  top: 2vh;
-}
-.indexBody .cabecera .navbar .menuButtons {
-  margin: 3vh 5vh 0vh 0vh;
-  background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 65%, rgb(90, 90, 90) 90%, rgb(100, 100, 100) 100%);
+  margin-left: 3vw;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
   padding: 2vh;
+  margin-top: 1vw;
+  background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 30%, rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100%);
+  border-radius: 10px;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton {
   text-decoration: none;
   color: rgb(240, 240, 240);
   font-size: 18px;
-  width: 100px;
-  padding: 1vh 100% 1vh 1vh;
+  padding: 2vw 100% 2vw 6vw;
   transition-duration: 2s;
+  margin-top: 1vw;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton:active {
   color: rgb(37, 37, 37);
   background: linear-gradient(30deg, rgb(100, 100, 100) 0%, rgb(80, 80, 80) 65%, rgb(50, 50, 50) 90%, rgb(37, 37, 37) 100%);
+  border-radius: 10px;
+  margin-left: 20vw;
 }
 
+@media screen and (min-width: 576px) {
+  .indexBody .cabecera .navbar .menuButtons {
+    margin: 10vw 25vw 0vh 0vh;
+  }
+  .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
+    padding: 2vh;
+  }
+}
 .piePagina {
   background-color: rgb(23, 23, 23);
   padding-top: 10px;
@@ -83,7 +93,7 @@
 }
 
 .indexMain {
-  margin-top: 80px;
+  margin-top: 20vw;
   height: auto;
 }
 .indexMain .preTitulo {
@@ -147,6 +157,21 @@
   padding: 4vw;
 }
 
+/* @media screen and (min-width: 576px) {
+
+@media screen and (min-width: 768px) {
+    .indexMain {
+        margin-top: 120px;
+        height: auto;
+
+        .preTitulo {
+            background-image: url(https://i.pinimg.com/originals/b9/33/b6/b933b686cf2284b70249741abea77dd3.jpg);
+            background-position: center;
+            background-size: cover;
+            padding-top: 2vh;
+        }
+}}
+ */
 /* footer */
 .pie__pagina {
   background-color: rgb(23, 23, 23);

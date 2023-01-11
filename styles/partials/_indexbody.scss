@@ -1,5 +1,5 @@
 .indexMain {
-    margin-top: 80px;
+    margin-top: 20vw;
     height: auto;
     
     .preTitulo {
@@ -73,3 +73,19 @@
         }
     }
 }
+
+/* @media screen and (min-width: 576px) {
+
+@media screen and (min-width: 768px) {
+    .indexMain {
+        margin-top: 120px;
+        height: auto;
+
+        .preTitulo {
+            background-image: url(https://i.pinimg.com/originals/b9/33/b6/b933b686cf2284b70249741abea77dd3.jpg);
+            background-position: center;
+            background-size: cover;
+            padding-top: 2vh;
+        }
+}}
+ */
