@@ -18,14 +18,16 @@
         }
 
         .linkCabecera {
-
+            display: flex;
+            flex-direction: row;   
+            
             .headerLogoNombre {
-                height: 8vh;
+                height: 15vw;
                 width: auto;
             }
 
             .headerLogo {
-                height: 8vh;
+                height: 15vw;
                 width: auto;
                 position: fixed;
                 right: 2vw;

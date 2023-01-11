@@ -15,12 +15,16 @@
   flex-direction: row;
   justify-content: center;
 }
+.indexBody .cabecera .linkCabecera {
+  display: flex;
+  flex-direction: row;
+}
 .indexBody .cabecera .linkCabecera .headerLogoNombre {
-  height: 8vh;
+  height: 15vw;
   width: auto;
 }
 .indexBody .cabecera .linkCabecera .headerLogo {
-  height: 8vh;
+  height: 15vw;
   width: auto;
   position: fixed;
   right: 2vw;
