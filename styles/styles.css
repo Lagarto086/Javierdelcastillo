@@ -1,4 +1,4 @@
-/*Mobile First*/
+/* -------------- MOBILE FIRST -------------- */
 /* Header */
 .indexBody {
   background-color: rgb(37, 37, 37);
@@ -13,12 +13,13 @@
 .indexBody .cabecera .cabeceraBrand {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .indexBody .cabecera .cabeceraBrand .linkCabecera {
   display: flex;
   flex-direction: row;
 }
+<<<<<<< HEAD
 .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
   height: auto;
   width: 40vw;
@@ -37,14 +38,34 @@
 .indexBody .cabecera .navbar .menuButtons {
   margin: 4vw 0vw 0vh 0vh;
   background-color: rgba(70, 70, 70, 0.7);
+=======
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoRedondo {
+  height: 15vw;
+  width: auto;
+}
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
+  height: 15vw;
+  width: auto;
+}
+.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
+  height: 15vw;
+  width: auto;
+}
+.indexBody .cabecera .navbar {
+  margin-left: 3vw;
+>>>>>>> Desktopv0.1
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
-  padding: 2vh;
+  padding: 2vw;
+  margin-top: 1vw;
+  background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 30%, rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100%);
+  border-radius: 10px;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton {
   text-decoration: none;
   color: rgb(240, 240, 240);
   font-size: 18px;
+<<<<<<< HEAD
   width: 100px;
   padding: 1vw 25vw 1vw 20vw;
   transition-duration: 2s;
@@ -54,8 +75,87 @@
   padding-left: 25vw;
   background-color: rgba(185, 185, 185, 0.5);
   border-radius: 5px;
+=======
+  padding: 2vw 100% 2vw 6vw;
+  margin-top: 1vw;
+>>>>>>> Desktopv0.1
 }
 
+/* -------------- TABLET -------------- */
+@media screen and (min-width: 576px) {
+  .indexBody .cabecera .navbar .menuButtons {
+    margin: 10vw 25vw 0vh 0vh;
+  }
+  .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
+    padding: 2vh;
+  }
+}
+/* -------------- SMALL PC - LRG TABLET -------------- */
+@media screen and (min-width: 768px) {
+  .indexBody {
+    background-color: rgb(37, 37, 37);
+  }
+  .indexBody .cabecera {
+    position: relative;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    margin-right: 0px;
+  }
+  .indexBody .cabecera .cabeceraBrand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .indexBody .cabecera .cabeceraBrand .linkCabecera {
+    display: flex;
+    flex-direction: row;
+  }
+  .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoRedondo {
+    height: 15vw;
+    width: auto;
+  }
+  .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
+    height: 15vw;
+    width: auto;
+  }
+  .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
+    height: 15vw;
+    width: auto;
+  }
+  .indexBody .cabecera .navbar {
+    margin: 1vw 0px 0px 0px;
+    padding: 0px;
+  }
+  .indexBody .cabecera .navbar .collapse .menuButtons {
+    margin: 1vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .indexBody .cabecera .navbar .collapse .menuButtons .cabeceraLink {
+    padding: 1vw;
+    background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 30%, rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100%);
+    border-radius: 10px;
+    padding: 1vw;
+    margin-top: 1vw;
+  }
+  .indexBody .cabecera .navbar .collapse .menuButtons .cabeceraLink .cabeceraBoton {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 28px;
+    padding: 1vw 2vw 1vw 2vw;
+    transition-duration: 2s;
+  }
+  .indexBody .cabecera .navbar .collapse .menuButtons .cabeceraLink .cabeceraBoton:hover {
+    transition-duration: 2s;
+    color: rgb(37, 37, 37);
+    background: linear-gradient(30deg, rgb(100, 100, 100) 0%, rgb(80, 80, 80) 65%, rgb(50, 50, 50) 90%, rgb(37, 37, 37) 100%);
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 3vw;
+  }
+}
 .piePagina {
   background-color: rgb(23, 23, 23);
   padding-top: 10px;
@@ -85,8 +185,48 @@
   color: rgb(46, 46, 46);
 }
 
+.piePaginaMD {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .piePagina {
+    display: none;
+  }
+  .piePaginaMD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .piePaginaMD .primeraLinea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20vw;
+    margin-bottom: 15vw;
+  }
+  .piePaginaMD .primeraLinea .pieLogo {
+    margin: 1vw;
+    padding-bottom: 15px;
+  }
+  .piePaginaMD .primeraLinea .secondMenu {
+    list-style: none;
+    text-align: center;
+    font-size: 28px;
+  }
+  .piePaginaMD .pieContenedorRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .piePaginaMD .pieContenedorRedes .pieLinkRedes .redes {
+    width: 12vw;
+    padding: 5px;
+  }
+}
 .indexMain {
-  margin-top: 80px;
+  margin-top: 20vw;
   height: auto;
 }
 .indexMain .preTitulo {
@@ -150,6 +290,46 @@
   padding: 4vw;
 }
 
+@media screen and (min-width: 768px) {
+  .indexMain {
+    margin-top: 2vw;
+    height: auto;
+  }
+  .novedades .titulosNovedades {
+    margin-top: 20px;
+    font-size: 5vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .novedades .tarjetasNovedades {
+    display: flex;
+    flex-direction: row;
+  }
+  .novedades .tarjetasNovedades .contenedorEntrada {
+    background-color: rgb(59, 59, 59);
+    border-radius: 20px;
+    margin: 2vw;
+  }
+  .novedades .tarjetasNovedades .contenedorEntrada .tituloEntrada {
+    margin-top: 20px;
+    font-size: 4vw;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .novedades .tarjetasNovedades .contenedorEntrada .multimediaEntrada {
+    padding: 2vw;
+  }
+  .novedades .tarjetasNovedades .contenedorEntrada .cuerpoEntrada {
+    margin-top: 2vw;
+    font-size: 3vw;
+    color: white;
+    padding: 4vw;
+  }
+}
 /* footer */
 .pie__pagina {
   background-color: rgb(23, 23, 23);

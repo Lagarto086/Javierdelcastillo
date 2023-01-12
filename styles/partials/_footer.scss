@@ -38,3 +38,53 @@
     }
 }
 
+.piePaginaMD {
+    display:none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .piePagina {
+        display: none;
+    }
+
+    .piePaginaMD {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .primeraLinea {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 20vw;
+            margin-bottom: 15vw;
+
+            .pieLogo {
+                margin: 1vw;
+                padding-bottom: 15px;
+            }
+        
+            .secondMenu {
+                list-style: none;
+                text-align: center;
+                font-size: 28px;
+          
+            }
+        }
+
+        .pieContenedorRedes {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        
+            .pieLinkRedes{ 
+
+                .redes {
+                    width: 12vw;
+                    padding: 5px;
+                }
+            }   
+        }
+    }
+}

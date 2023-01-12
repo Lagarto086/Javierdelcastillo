@@ -1,5 +1,5 @@
 .indexMain {
-    margin-top: 80px;
+    margin-top: 20vw;
     height: auto;
     
     .preTitulo {
@@ -29,10 +29,9 @@
     text-align: center;  
     color: white; 
     font-size: 4vw; 
+    }
 }
 
-
-}
 .novedades {
     background-color: rgb(165, 165, 165);
     margin-top: 80px;
@@ -70,6 +69,59 @@
             font-size: 3vw;
             color: white;
             padding: 4vw;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .indexMain {
+        margin-top: 2vw;
+        height: auto;
+    }
+
+    .novedades {
+
+        .titulosNovedades {
+
+            margin-top: 20px;
+            font-size: 5vw;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            }
+
+        .tarjetasNovedades {      
+            display: flex;
+            flex-direction: row;      
+
+            .contenedorEntrada {
+                background-color: rgb(59, 59, 59);
+                border-radius: 20px;
+                margin: 2vw;
+        
+                .tituloEntrada {
+                    margin-top: 20px;
+                    font-size: 4vw;
+                    color: white;
+                    background-color: rgb(59, 59, 59);
+                    padding: 20px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+        
+                .multimediaEntrada {
+                    padding: 2vw;
+                }
+        
+                .cuerpoEntrada {
+                    margin-top: 2vw;
+                    font-size: 3vw;
+                    color: white;
+                    padding: 4vw;
+                }
+            }
         }
     }
 }
