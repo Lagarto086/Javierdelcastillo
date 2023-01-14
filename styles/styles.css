@@ -3,82 +3,54 @@
 .indexBody {
   background-color: rgb(37, 37, 37);
 }
-.indexBody .cabecera {
+.indexBody .cabecera .cabeceraLogos {
   position: fixed;
-  top: 0vh;
+  top: 0px;
+  right: 1px;
   width: 100%;
-  padding: 10px 10px 15px 10px;
+  padding: 10px 10px 35px 10px;
   background-color: rgb(37, 37, 37);
-}
-.indexBody .cabecera .cabeceraBrand {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: end;
 }
-.indexBody .cabecera .cabeceraBrand .linkCabecera {
+.indexBody .cabecera .cabeceraLogos .linkCabecera {
   display: flex;
   flex-direction: row;
 }
-<<<<<<< HEAD
-.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
-  height: auto;
-  width: 40vw;
+.indexBody .cabecera .cabeceraLogos .linkCabecera .headerLogoNombre {
+  height: 12vw;
+  width: auto;
 }
-.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
-  height: auto;
-  width: 20vw;
-  position: fixed;
-  right: 2vw;
+.indexBody .cabecera .cabeceraLogos .linkCabecera .headerLogoRedondo {
+  height: 12vw;
+  width: auto;
 }
 .indexBody .cabecera .navbar {
   position: fixed;
-  top: 5vw;
-  size: 20vw;
+  top: 1vw;
 }
 .indexBody .cabecera .navbar .menuButtons {
-  margin: 4vw 0vw 0vh 0vh;
-  background-color: rgba(70, 70, 70, 0.7);
-=======
-.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoRedondo {
-  height: 15vw;
-  width: auto;
-}
-.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
-  height: 15vw;
-  width: auto;
-}
-.indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
-  height: 15vw;
-  width: auto;
-}
-.indexBody .cabecera .navbar {
-  margin-left: 3vw;
->>>>>>> Desktopv0.1
+  width: 100%;
+  background-color: rgb(204, 204, 204);
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
-  padding: 2vw;
-  margin-top: 1vw;
-  background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 30%, rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100%);
-  border-radius: 10px;
+  padding: 1vw;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: rgb(37, 37, 37);
+  text-align: center;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton {
   text-decoration: none;
   color: rgb(240, 240, 240);
   font-size: 18px;
-<<<<<<< HEAD
-  width: 100px;
-  padding: 1vw 25vw 1vw 20vw;
-  transition-duration: 2s;
+  padding: 1vw 30vw;
 }
 .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton:active {
+  background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(110, 110, 110) 30%, rgb(150, 150, 150) 40%, rgb(200, 200, 200) 50%, rgb(150, 150, 150) 60%, rgb(110, 110, 110) 70%, rgb(37, 37, 37) 100%);
   color: rgb(37, 37, 37);
-  padding-left: 25vw;
-  background-color: rgba(185, 185, 185, 0.5);
   border-radius: 5px;
-=======
-  padding: 2vw 100% 2vw 6vw;
-  margin-top: 1vw;
->>>>>>> Desktopv0.1
 }
 
 /* -------------- TABLET -------------- */
@@ -95,67 +67,62 @@
   .indexBody {
     background-color: rgb(37, 37, 37);
   }
-  .indexBody .cabecera {
-    position: relative;
-    padding: 0px 10px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    margin-right: 0px;
-  }
-  .indexBody .cabecera .cabeceraBrand {
+  .indexBody .cabecera .cabeceraLogos {
+    position: fixed;
+    top: 0px;
+    right: 1px;
+    width: 100%;
+    padding: 10px 10px 50px 10px;
+    background-color: rgb(37, 37, 37);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
   }
-  .indexBody .cabecera .cabeceraBrand .linkCabecera {
+  .indexBody .cabecera .cabeceraLogos .linkCabecera {
     display: flex;
     flex-direction: row;
   }
-  .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoRedondo {
-    height: 15vw;
+  .indexBody .cabecera .cabeceraLogos .linkCabecera .headerLogoNombre {
+    height: 12vw;
     width: auto;
   }
-  .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogoNombre {
-    height: 15vw;
-    width: auto;
-  }
-  .indexBody .cabecera .cabeceraBrand .linkCabecera .headerLogo {
-    height: 15vw;
+  .indexBody .cabecera .cabeceraLogos .linkCabecera .headerLogoRedondo {
+    height: 8vw;
     width: auto;
   }
   .indexBody .cabecera .navbar {
-    margin: 1vw 0px 0px 0px;
-    padding: 0px;
-  }
-  .indexBody .cabecera .navbar .collapse .menuButtons {
-    margin: 1vw;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
+  }
+  .indexBody .cabecera .navbar .menuButtons {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .indexBody .cabecera .navbar .menuButtons .cabeceraLink {
+    width: 10vw;
+    padding: 4px;
+    margin-right: 2px;
+    text-align: center;
+  }
+  .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-  }
-  .indexBody .cabecera .navbar .collapse .menuButtons .cabeceraLink {
-    padding: 1vw;
-    background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70, 0.5) 30%, rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100%);
-    border-radius: 10px;
-    padding: 1vw;
-    margin-top: 1vw;
-  }
-  .indexBody .cabecera .navbar .collapse .menuButtons .cabeceraLink .cabeceraBoton {
     text-decoration: none;
     color: rgb(240, 240, 240);
-    font-size: 28px;
-    padding: 1vw 2vw 1vw 2vw;
-    transition-duration: 2s;
+    font-size: 18px;
+    padding: 2px;
   }
-  .indexBody .cabecera .navbar .collapse .menuButtons .cabeceraLink .cabeceraBoton:hover {
-    transition-duration: 2s;
+  .indexBody .cabecera .navbar .menuButtons .cabeceraLink .cabeceraBoton:hover {
+    background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(110, 110, 110) 30%, rgb(150, 150, 150) 40%, rgb(200, 200, 200) 50%, rgb(150, 150, 150) 60%, rgb(110, 110, 110) 70%, rgb(37, 37, 37) 100%);
     color: rgb(37, 37, 37);
-    background: linear-gradient(30deg, rgb(100, 100, 100) 0%, rgb(80, 80, 80) 65%, rgb(50, 50, 50) 90%, rgb(37, 37, 37) 100%);
-    border-radius: 10px;
-    margin-left: 2vw;
-    margin-top: 3vw;
+    border-radius: 5px;
   }
 }
+/* -------------- MOBILE FIRST -------------- */
 .piePagina {
   background-color: rgb(23, 23, 23);
   padding-top: 10px;
@@ -163,10 +130,12 @@
   /* justify-content: space-between; */
 }
 .piePagina .pieInstitucional .pieLogo {
+  width: 10vw;
   margin: 1vw;
   padding-bottom: 15px;
 }
 .piePagina .secondMenu {
+  font-size: 3vw;
   list-style: none;
   text-align: center;
 }
@@ -177,10 +146,20 @@
   align-items: center;
 }
 .piePagina .pieContenedorRedes .pieRedes .redes {
-  width: 40%;
+  width: 8vw;
   padding: 5px;
 }
+.piePagina .legal {
+  color: rgb(125, 125, 125);
+  font-size: 3vw;
+  margin-bottom: 10vw;
+}
+.piePagina .legal .legalValidacion {
+  color: rgb(125, 125, 125);
+  margin-left: 1vw;
+}
 .piePagina .derechos {
+  font-size: 3vw;
   text-align: center;
   color: rgb(46, 46, 46);
 }
@@ -191,42 +170,26 @@
 
 @media screen and (min-width: 768px) {
   .piePagina {
-    display: none;
-  }
-  .piePaginaMD {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .piePaginaMD .primeraLinea {
+  .piePagina .pieContenedorRedes {
+    margin-top: 6vw;
+    margin-bottom: 6vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 20vw;
-    margin-bottom: 15vw;
   }
-  .piePaginaMD .primeraLinea .pieLogo {
-    margin: 1vw;
-    padding-bottom: 15px;
-  }
-  .piePaginaMD .primeraLinea .secondMenu {
-    list-style: none;
-    text-align: center;
-    font-size: 28px;
-  }
-  .piePaginaMD .pieContenedorRedes {
+  .piePagina .pieContenedorRedes .pieRedes {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-  }
-  .piePaginaMD .pieContenedorRedes .pieLinkRedes .redes {
-    width: 12vw;
-    padding: 5px;
+    justify-content: space-around;
   }
 }
+/* -------------- MOBILE FIRST -------------- */
 .indexMain {
-  margin-top: 20vw;
+  margin-top: 15vw;
   height: auto;
 }
 .indexMain .preTitulo {
@@ -255,45 +218,82 @@
 }
 
 .novedades {
-  background-color: rgb(165, 165, 165);
+  background-color: rgb(245, 245, 245);
   margin-top: 80px;
   margin-bottom: 20vw;
   border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 .novedades .titulosNovedades {
   margin-top: 20px;
-  font-size: 5vw;
+  font-size: 6vw;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
-.novedades .contenedorEntrada {
+.novedades .tarjetasNovedades .contenedorEntrada {
   background-color: rgb(59, 59, 59);
   margin-bottom: 10vw;
-  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.novedades .contenedorEntrada .tituloEntrada {
+.novedades .tarjetasNovedades .contenedorEntrada .tituloEntrada {
   margin-top: 20px;
   font-size: 4vw;
-  color: white;
+  color: rgb(245, 245, 245);
   background-color: rgb(59, 59, 59);
   padding: 20px;
   border-radius: 20px;
 }
-.novedades .contenedorEntrada .multimediaEntrada {
+.novedades .tarjetasNovedades .contenedorEntrada .multimediaEntrada {
   width: 100%;
+  height: auto;
 }
-.novedades .contenedorEntrada .cuerpoEntrada {
+.novedades .tarjetasNovedades .contenedorEntrada .cuerpoEntrada {
   margin-top: 20px;
   font-size: 3vw;
-  color: white;
+  color: rgb(245, 245, 245);
   padding: 4vw;
 }
 
 @media screen and (min-width: 768px) {
   .indexMain {
-    margin-top: 2vw;
+    background-image: url(https://i.pinimg.com/originals/b9/33/b6/b933b686cf2284b70249741abea77dd3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20vw;
     height: auto;
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .indexMain .preTitulo {
+    background-image: none;
+    margin: 0px;
+    padding: 0vh 0vw 0vh 0vh;
+  }
+  .indexMain .preTitulo .tituloMaster {
+    background-color: rgba(70, 70, 70, 0.6);
+    border-radius: 10px;
+    margin-top: 5vw;
+    margin-top: 0vh;
+    padding: 0vh 0vw 0vh 0vh;
+  }
+  .indexMain .cargosDiv {
+    margin-top: 20vw;
+    background-color: rgba(70, 70, 70, 0.6);
+    border-radius: 10px;
+  }
+  .indexMain .cargosDiv .cargos {
+    padding: 1vh 0vh;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
   }
   .novedades .titulosNovedades {
     margin-top: 20px;
@@ -309,11 +309,11 @@
   .novedades .tarjetasNovedades .contenedorEntrada {
     background-color: rgb(59, 59, 59);
     border-radius: 20px;
-    margin: 2vw;
+    margin: 1vw;
   }
   .novedades .tarjetasNovedades .contenedorEntrada .tituloEntrada {
     margin-top: 20px;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     background-color: rgb(59, 59, 59);
     padding: 20px;
@@ -322,10 +322,13 @@
   }
   .novedades .tarjetasNovedades .contenedorEntrada .multimediaEntrada {
     padding: 2vw;
+    height: 30vw;
   }
   .novedades .tarjetasNovedades .contenedorEntrada .cuerpoEntrada {
+    text-align: justify;
+    text-indent: 5vw;
     margin-top: 2vw;
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
     padding: 4vw;
   }

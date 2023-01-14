@@ -2,103 +2,69 @@
 
 /* Header */ 
 .indexBody {
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37);
         
     .cabecera {
-        position:fixed;
-        top: 0vh;
-        width: 100%;
-        padding: 10px 10px 15px 10px;
-        background-color: rgb(37, 37, 37);
-        
-        .cabeceraBrand {
+
+        .cabeceraLogos {
+            position:fixed;
+            top: 0px;
+            right: 1px;
+            width: 100%;
+            padding: 10px 10px 35px 10px;
+            background-color: rgb(37, 37, 37);
             display: flex;
-<<<<<<< HEAD
-            flex-direction: row;          
-            justify-content: center;           
-     
-=======
             flex-direction: row;   
-            justify-content: space-evenly;       
+            justify-content: end;       
 
->>>>>>> Desktopv0.1
-
-        .linkCabecera {
-            display: flex;
-            flex-direction: row;  
-            
-            .headerLogoRedondo {
-                height: 15vw;
-                width: auto;
-            }
-
-            .headerLogoNombre {
-                height: auto;
-                width: 40vw;
-            }
-
-            .headerLogo {
-<<<<<<< HEAD
-                height: auto;
-                width: 20vw;
-                position: fixed;
-                right: 2vw;
-            } 
-        }   }
-
-        .navbar {
-            position: fixed;
-            top: 5vw;
-            size: 20vw;
-
-            .menuButtons {
-                margin: 4vw 0vw 0vh 0vh;
-
-                background-color: rgba(70,70,70,0.7);
+            .linkCabecera {
+                display: flex;
+                flex-direction: row;  
                 
-=======
-                height: 15vw;
-                width: auto;
-            } 
+                .headerLogoNombre {
+                    height: 12vw;
+                    width: auto;
+                }
+                
+                .headerLogoRedondo {
+                    height: 12vw;
+                    width: auto;
+                }
+            }
         }
-    }
 
-        .navbar {
-            margin-left: 3vw;
+       .navbar {
+            position: fixed;
+            top: 1vw; 
+
             .menuButtons {
->>>>>>> Desktopv0.1
-                                
+                width: 100%;         
+                background-color: rgb(204, 204, 204); 
+                
                 .cabeceraLink {
-                    padding: 2vw;
-                    margin-top: 1vw;
-                    background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70,0.5) 30% ,rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100% );
-                    border-radius: 10px;
-
+                    padding: 1vw;
+                    margin-top: 1px;
+                    margin-bottom: 1px;
+                    background-color: rgb(37, 37, 37);
+                    text-align: center;
+                    
                     .cabeceraBoton {
                         text-decoration: none;
                         color:rgb(240, 240, 240);
                         font-size: 18px;
-<<<<<<< HEAD
-                        width: 100px;
-                        padding: 1vw 25vw 1vw 20vw;
-                        transition-duration: 2s;
-
-                        &:active{
-                            color:rgb(37, 37, 37);
-                            padding-left: 25vw;
-                            background-color: rgba(185, 185, 185, 0.5);
+                        padding: 1vw 30vw;
+                    
+                        &:active {
+                            background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(110, 110, 110) 30%, rgb(150,150,150)40%, rgb(200,200,200)50%, rgb(150,150,150)60% , rgb(110, 110, 110) 70%, rgb(37, 37, 37) 100% );
+                            color: rgb(37,37,37);
                             border-radius: 5px;
-
-=======
-                        padding: 2vw 100% 2vw 6vw;
-                        margin-top: 1vw;
->>>>>>> Desktopv0.1
-                        }
+                        }    
                     }
-                }
+                } 
             }
-        }
+        } 
     }
+}
 
 
 /* -------------- TABLET -------------- */
@@ -127,80 +93,72 @@
 @media screen and (min-width: 768px) {
 
     .indexBody {
-        background-color: rgb(37, 37, 37);
-
+        background-color: rgba(37, 37, 37);
             
         .cabecera {
-            position: relative ;
-            padding: 0px 10px 0px 0px;
-            margin: 0px 0px 0px 0px;
-            margin-right: 0px;
-            
-            .cabeceraBrand {
+    
+            .cabeceraLogos {
+                position: fixed;
+                top: 0px;
+                right: 1px;
+                width: 100%;
+                padding: 10px 10px 50px 10px;
+                background-color: rgb(37, 37, 37);
                 display: flex;
                 flex-direction: row;   
-                justify-content: space-evenly;       
+                justify-content: center;   
+                align-items: center;    
     
-            .linkCabecera {
-                display: flex;
-                flex-direction: row;  
-                
-                .headerLogoRedondo {
-                    height: 15vw;
-                    width: auto;
-                }
-    
-                .headerLogoNombre {
-                    height: 15vw;
-                    width: auto;
-                }
-    
-                .headerLogo {
-                    height: 15vw;
-                    width: auto;
-                } 
-            }
-        }
-    
-            .navbar {
-                margin: 1vw 0px 0px 0px;
-                padding: 0px;
-
-                .collapse {
-
-                    .menuButtons {
-                        margin: 1vw;
-                        display: flex;
-                        flex-direction: row;
-                        width: 100%;
-                        justify-content: space-around;
-
-                        .cabeceraLink {
-                            padding: 1vw;
-                            background: linear-gradient(30deg, rgb(50, 50, 50) 0%, rgba(70, 70, 70,0.5) 30% ,rgb(90, 90, 90) 60%, rgb(100, 100, 100) 100% );
-                            border-radius: 10px;
-                            padding: 1vw;
-                            margin-top: 1vw;
-    
-                        .cabeceraBoton {
-                            text-decoration: none;
-                            color:rgb(240, 240, 240);
-                            font-size: 28px;
-                            padding: 1vw 2vw 1vw 2vw;
-                            transition-duration: 2s;
-                                                        
-                            &:hover{
-                                transition-duration: 2s;
-                                color:rgb(37, 37, 37);
-                                background: linear-gradient(30deg, rgb(100, 100, 100) 0%, rgb(80, 80, 80) 65% , rgb(50, 50, 50) 90%, rgb(37, 37, 37) 100% );
-                                border-radius: 10px;
-                                margin-left: 2vw;
-                                margin-top: 3vw; 
-                            } 
-                        }
+                .linkCabecera {
+                    display: flex;
+                    flex-direction: row;  
+                    
+                    .headerLogoNombre {
+                        height: 12vw;
+                        width: auto;
+                    }
+                    
+                    .headerLogoRedondo {
+                        height: 8vw;
+                        width: auto;
                     }
                 }
             }
-        } }
+    
+           .navbar {
+            margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                
+                .menuButtons {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                                        
+                    .cabeceraLink {
+                        width: 10vw; 
+                        padding: 4px;
+                        margin-right: 2px;
+                        text-align: center;
+                         
+                        .cabeceraBoton {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            text-decoration: none;
+                            color:rgb(240, 240, 240);
+                            font-size: 18px;
+                            padding: 2px;
+                    
+                            &:hover {
+                                background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(110, 110, 110) 30%, rgb(150,150,150)40%, rgb(200,200,200)50%, rgb(150,150,150)60% , rgb(110, 110, 110) 70%, rgb(37, 37, 37) 100% );                                
+                                color: rgb(37, 37, 37);
+                                border-radius: 5px;
+                            }    
+                        }
+                    } 
+                }
+            } 
+        }
     }
 }

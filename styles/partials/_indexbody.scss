@@ -1,5 +1,7 @@
+/* -------------- MOBILE FIRST -------------- */
+
 .indexMain {
-    margin-top: 20vw;
+    margin-top: 15vw;
     height: auto;
     
     .preTitulo {
@@ -33,42 +35,51 @@
 }
 
 .novedades {
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(245, 245, 245);
     margin-top: 80px;
     margin-bottom: 20vw;
     border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     
-        .titulosNovedades {
-            margin-top: 20px;
-            font-size: 5vw;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            text-align: center;
-        }
+    .titulosNovedades {
+        margin-top: 20px;
+        font-size: 6vw;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
 
-    .contenedorEntrada {
-        background-color: rgb(59, 59, 59);
-        margin-bottom: 10vw;
-        border-radius: 20px;
+    .tarjetasNovedades {
 
-        .tituloEntrada {
-            margin-top: 20px;
-            font-size: 4vw;
-            color: white;
+        .contenedorEntrada {
             background-color: rgb(59, 59, 59);
-            padding: 20px;
-            border-radius: 20px;
-        }
+            margin-bottom: 10vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
-        .multimediaEntrada {
-            width: 100%;
-        }
+            .tituloEntrada {
+                margin-top: 20px;
+                font-size: 4vw;
+                color: rgb(245, 245, 245);
+                background-color: rgb(59, 59, 59);
+                padding: 20px;
+                border-radius: 20px;
+            }
 
-        .cuerpoEntrada {
-            margin-top: 20px;
-            font-size: 3vw;
-            color: white;
-            padding: 4vw;
+            .multimediaEntrada {
+                width: 100%;
+                height: auto;
+            }
+
+            .cuerpoEntrada {
+                margin-top: 20px;
+                font-size: 3vw;
+                color: rgb(245, 245, 245);
+                padding: 4vw;
+            }
         }
     }
 }
@@ -76,15 +87,50 @@
 
 
 @media screen and (min-width: 768px) {
+
     .indexMain {
-        margin-top: 2vw;
+        background-image: url(https://i.pinimg.com/originals/b9/33/b6/b933b686cf2284b70249741abea77dd3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20vw;
         height: auto;
+        padding: 1vw 1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .preTitulo {
+            background-image: none;
+            margin: 0px;
+            padding: 0vh 0vw 0vh 0vh;
+            
+            .tituloMaster {
+                background-color: rgba(70, 70, 70, 0.6);
+                border-radius: 10px;
+                margin-top: 5vw;
+                margin-top: 0vh;
+                padding: 0vh 0vw 0vh 0vh;
+            }
+        }
+
+        .cargosDiv {
+            margin-top: 20vw;
+            background-color: rgba(70, 70, 70, 0.6);
+            border-radius: 10px;
+            
+            .cargos {
+                padding: 1vh 0vh;
+                margin: 0px;
+                text-align: center;  
+                color: white; 
+                font-size: 4vw; 
+            }
+        }
     }
 
     .novedades {
 
         .titulosNovedades {
-
             margin-top: 20px;
             font-size: 5vw;
             padding-top: 20px;
@@ -99,11 +145,11 @@
             .contenedorEntrada {
                 background-color: rgb(59, 59, 59);
                 border-radius: 20px;
-                margin: 2vw;
+                margin: 1vw;
         
                 .tituloEntrada {
                     margin-top: 20px;
-                    font-size: 4vw;
+                    font-size: 3vw;
                     color: white;
                     background-color: rgb(59, 59, 59);
                     padding: 20px;
@@ -113,15 +159,20 @@
         
                 .multimediaEntrada {
                     padding: 2vw;
+                    height: 30vw;
                 }
         
                 .cuerpoEntrada {
+                    text-align: justify;
+                    text-indent: 5vw;
                     margin-top: 2vw;
-                    font-size: 3vw;
+                    font-size: 2vw;
                     color: white;
                     padding: 4vw;
                 }
             }
         }
     }
+
+
 }

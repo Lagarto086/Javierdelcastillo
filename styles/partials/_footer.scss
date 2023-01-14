@@ -1,4 +1,4 @@
-//VERSION 1 DEL FOOTER
+/* -------------- MOBILE FIRST -------------- */
 
 .piePagina {
     background-color: rgb(23, 23, 23);
@@ -10,29 +10,43 @@
     .pieInstitucional {
         
         .pieLogo {
+            width: 10vw;
             margin: 1vw;
             padding-bottom: 15px;
         }
     }
 
     .secondMenu {
+        font-size: 3vw;
         list-style: none;
         text-align: center;
     }
-    
+
     .pieContenedorRedes {
         text-align: center;
 
         .pieRedes {
             align-items: center;
-           
+
             .redes {
-                width: 40%;
+                width: 8vw;
                 padding: 5px;
             }
         }
     }
+
+    .legal {
+        color: rgb(125,125,125);
+        font-size: 3vw;
+        margin-bottom: 10vw;
+
+        .legalValidacion {
+            color: rgb(125,125,125);
+            margin-left: 1vw;
+        }
+    }
     .derechos {
+        font-size: 3vw;
         text-align: center;
         color:rgb(46, 46, 46)
     }
@@ -45,46 +59,23 @@
 @media screen and (min-width: 768px) {
 
     .piePagina {
-        display: none;
-    }
-
-    .piePaginaMD {
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-        .primeraLinea {
-            display:flex;
+    
+        .pieContenedorRedes {
+            margin-top: 6vw;
+            margin-bottom: 6vw;
+            display: flex;
             flex-direction: row;
             justify-content: space-around;
-            height: 20vw;
-            margin-bottom: 15vw;
-
-            .pieLogo {
-                margin: 1vw;
-                padding-bottom: 15px;
-            }
         
-            .secondMenu {
-                list-style: none;
-                text-align: center;
-                font-size: 28px;
-          
-            }
-        }
-
-        .pieContenedorRedes {
-            display:flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 100%;
-        
-            .pieLinkRedes{ 
-
-                .redes {
-                    width: 12vw;
-                    padding: 5px;
+                .pieRedes {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
                 }
-            }   
         }
+    
     }
 }
