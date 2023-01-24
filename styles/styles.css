@@ -26,6 +26,7 @@
 .indexBody .cabecera .cabeceraLogos .linkCabecera .headerLogoNombre {
   height: 12vw;
   width: auto;
+  display: none;
 }
 .indexBody .cabecera .cabeceraLogos .linkCabecera .headerLogoRedondo {
   height: 12vw;
