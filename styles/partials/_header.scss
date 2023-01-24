@@ -8,7 +8,8 @@
 
 /* Header */ 
 .indexBody {
-    background-color: rgba(37, 37, 37);
+    /* background-color: rgba(37, 37, 37); */
+    background-color: white;
         
     .cabecera {
 
@@ -18,7 +19,7 @@
             right: 1px;
             width: 100%;
             padding: 10px 10px 35px 10px;
-            background-color: rgb(37, 37, 37);
+            background-color: white;
             display: flex;
             flex-direction: row;   
             justify-content: end;       
@@ -100,7 +101,7 @@
 @media screen and (min-width: 768px) {
 
     .indexBody {
-        background-color: rgba(37, 37, 37);
+        background-color: white;
             
         .cabecera {
     
@@ -109,8 +110,8 @@
                 top: 0px;
                 right: 1px;
                 width: 100%;
-                padding: 10px 10px 50px 10px;
-                background-color: rgb(37, 37, 37);
+                padding: 10px 10px 150px 10px;
+                background-color: white;
                 display: flex;
                 flex-direction: row;   
                 justify-content: center;   

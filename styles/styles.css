@@ -6,7 +6,8 @@
 /* -------------- MOBILE FIRST -------------- */
 /* Header */
 .indexBody {
-  background-color: rgb(37, 37, 37);
+  /* background-color: rgba(37, 37, 37); */
+  background-color: white;
 }
 .indexBody .cabecera .cabeceraLogos {
   position: fixed;
@@ -14,7 +15,7 @@
   right: 1px;
   width: 100%;
   padding: 10px 10px 35px 10px;
-  background-color: rgb(37, 37, 37);
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -71,15 +72,15 @@
 /* -------------- SMALL PC - LRG TABLET -------------- */
 @media screen and (min-width: 768px) {
   .indexBody {
-    background-color: rgb(37, 37, 37);
+    background-color: white;
   }
   .indexBody .cabecera .cabeceraLogos {
     position: fixed;
     top: 0px;
     right: 1px;
     width: 100%;
-    padding: 10px 10px 50px 10px;
-    background-color: rgb(37, 37, 37);
+    padding: 10px 10px 150px 10px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
